@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		227D66E725BE3E5E0059F1EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D66E625BE3E5E0059F1EE /* AppDelegate.swift */; };
+		227D66E925BE3E5E0059F1EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D66E825BE3E5E0059F1EE /* SceneDelegate.swift */; };
+		227D66EB25BE3E5E0059F1EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D66EA25BE3E5E0059F1EE /* ViewController.swift */; };
+		227D66EE25BE3E5E0059F1EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227D66EC25BE3E5E0059F1EE /* Main.storyboard */; };
+		227D66F025BE3E600059F1EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227D66EF25BE3E600059F1EE /* Assets.xcassets */; };
+		227D66F325BE3E600059F1EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227D66F125BE3E600059F1EE /* LaunchScreen.storyboard */; };
+		227D66FE25BE3E610059F1EE /* Lab01_AJokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D66FD25BE3E610059F1EE /* Lab01_AJokeTests.swift */; };
+		227D670925BE3E610059F1EE /* Lab01_AJokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D670825BE3E610059F1EE /* Lab01_AJokeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		227D66FA25BE3E610059F1EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 227D66DB25BE3E5E0059F1EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 227D66E225BE3E5E0059F1EE;
+			remoteInfo = "Lab01-AJoke";
+		};
+		227D670525BE3E610059F1EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 227D66DB25BE3E5E0059F1EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 227D66E225BE3E5E0059F1EE;
+			remoteInfo = "Lab01-AJoke";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		227D66E325BE3E5E0059F1EE /* Lab01-AJoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab01-AJoke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		227D66E625BE3E5E0059F1EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		227D66E825BE3E5E0059F1EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		227D66EA25BE3E5E0059F1EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		227D66ED25BE3E5E0059F1EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		227D66EF25BE3E600059F1EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		227D66F225BE3E600059F1EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		227D66F425BE3E600059F1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227D66F925BE3E610059F1EE /* Lab01-AJokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab01-AJokeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		227D66FD25BE3E610059F1EE /* Lab01_AJokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab01_AJokeTests.swift; sourceTree = "<group>"; };
+		227D66FF25BE3E610059F1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227D670425BE3E610059F1EE /* Lab01-AJokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab01-AJokeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		227D670825BE3E610059F1EE /* Lab01_AJokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab01_AJokeUITests.swift; sourceTree = "<group>"; };
+		227D670A25BE3E610059F1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		227D66E025BE3E5E0059F1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D66F625BE3E610059F1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D670125BE3E610059F1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		227D66DA25BE3E5E0059F1EE = {
+			isa = PBXGroup;
+			children = (
+				227D66E525BE3E5E0059F1EE /* Lab01-AJoke */,
+				227D66FC25BE3E610059F1EE /* Lab01-AJokeTests */,
+				227D670725BE3E610059F1EE /* Lab01-AJokeUITests */,
+				227D66E425BE3E5E0059F1EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		227D66E425BE3E5E0059F1EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227D66E325BE3E5E0059F1EE /* Lab01-AJoke.app */,
+				227D66F925BE3E610059F1EE /* Lab01-AJokeTests.xctest */,
+				227D670425BE3E610059F1EE /* Lab01-AJokeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227D66E525BE3E5E0059F1EE /* Lab01-AJoke */ = {
+			isa = PBXGroup;
+			children = (
+				227D66E625BE3E5E0059F1EE /* AppDelegate.swift */,
+				227D66E825BE3E5E0059F1EE /* SceneDelegate.swift */,
+				227D66EA25BE3E5E0059F1EE /* ViewController.swift */,
+				227D66EC25BE3E5E0059F1EE /* Main.storyboard */,
+				227D66EF25BE3E600059F1EE /* Assets.xcassets */,
+				227D66F125BE3E600059F1EE /* LaunchScreen.storyboard */,
+				227D66F425BE3E600059F1EE /* Info.plist */,
+			);
+			path = "Lab01-AJoke";
+			sourceTree = "<group>";
+		};
+		227D66FC25BE3E610059F1EE /* Lab01-AJokeTests */ = {
+			isa = PBXGroup;
+			children = (
+				227D66FD25BE3E610059F1EE /* Lab01_AJokeTests.swift */,
+				227D66FF25BE3E610059F1EE /* Info.plist */,
+			);
+			path = "Lab01-AJokeTests";
+			sourceTree = "<group>";
+		};
+		227D670725BE3E610059F1EE /* Lab01-AJokeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				227D670825BE3E610059F1EE /* Lab01_AJokeUITests.swift */,
+				227D670A25BE3E610059F1EE /* Info.plist */,
+			);
+			path = "Lab01-AJokeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		227D66E225BE3E5E0059F1EE /* Lab01-AJoke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227D670D25BE3E610059F1EE /* Build configuration list for PBXNativeTarget "Lab01-AJoke" */;
+			buildPhases = (
+				227D66DF25BE3E5E0059F1EE /* Sources */,
+				227D66E025BE3E5E0059F1EE /* Frameworks */,
+				227D66E125BE3E5E0059F1EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab01-AJoke";
+			productName = "Lab01-AJoke";
+			productReference = 227D66E325BE3E5E0059F1EE /* Lab01-AJoke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		227D66F825BE3E610059F1EE /* Lab01-AJokeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227D671025BE3E610059F1EE /* Build configuration list for PBXNativeTarget "Lab01-AJokeTests" */;
+			buildPhases = (
+				227D66F525BE3E610059F1EE /* Sources */,
+				227D66F625BE3E610059F1EE /* Frameworks */,
+				227D66F725BE3E610059F1EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				227D66FB25BE3E610059F1EE /* PBXTargetDependency */,
+			);
+			name = "Lab01-AJokeTests";
+			productName = "Lab01-AJokeTests";
+			productReference = 227D66F925BE3E610059F1EE /* Lab01-AJokeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		227D670325BE3E610059F1EE /* Lab01-AJokeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227D671325BE3E610059F1EE /* Build configuration list for PBXNativeTarget "Lab01-AJokeUITests" */;
+			buildPhases = (
+				227D670025BE3E610059F1EE /* Sources */,
+				227D670125BE3E610059F1EE /* Frameworks */,
+				227D670225BE3E610059F1EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				227D670625BE3E610059F1EE /* PBXTargetDependency */,
+			);
+			name = "Lab01-AJokeUITests";
+			productName = "Lab01-AJokeUITests";
+			productReference = 227D670425BE3E610059F1EE /* Lab01-AJokeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		227D66DB25BE3E5E0059F1EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					227D66E225BE3E5E0059F1EE = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					227D66F825BE3E610059F1EE = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 227D66E225BE3E5E0059F1EE;
+					};
+					227D670325BE3E610059F1EE = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 227D66E225BE3E5E0059F1EE;
+					};
+				};
+			};
+			buildConfigurationList = 227D66DE25BE3E5E0059F1EE /* Build configuration list for PBXProject "Lab01-AJoke" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 227D66DA25BE3E5E0059F1EE;
+			productRefGroup = 227D66E425BE3E5E0059F1EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				227D66E225BE3E5E0059F1EE /* Lab01-AJoke */,
+				227D66F825BE3E610059F1EE /* Lab01-AJokeTests */,
+				227D670325BE3E610059F1EE /* Lab01-AJokeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		227D66E125BE3E5E0059F1EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227D66F325BE3E600059F1EE /* LaunchScreen.storyboard in Resources */,
+				227D66F025BE3E600059F1EE /* Assets.xcassets in Resources */,
+				227D66EE25BE3E5E0059F1EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D66F725BE3E610059F1EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D670225BE3E610059F1EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		227D66DF25BE3E5E0059F1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227D66EB25BE3E5E0059F1EE /* ViewController.swift in Sources */,
+				227D66E725BE3E5E0059F1EE /* AppDelegate.swift in Sources */,
+				227D66E925BE3E5E0059F1EE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D66F525BE3E610059F1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227D66FE25BE3E610059F1EE /* Lab01_AJokeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D670025BE3E610059F1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227D670925BE3E610059F1EE /* Lab01_AJokeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		227D66FB25BE3E610059F1EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 227D66E225BE3E5E0059F1EE /* Lab01-AJoke */;
+			targetProxy = 227D66FA25BE3E610059F1EE /* PBXContainerItemProxy */;
+		};
+		227D670625BE3E610059F1EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 227D66E225BE3E5E0059F1EE /* Lab01-AJoke */;
+			targetProxy = 227D670525BE3E610059F1EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		227D66EC25BE3E5E0059F1EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227D66ED25BE3E5E0059F1EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		227D66F125BE3E600059F1EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227D66F225BE3E600059F1EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		227D670B25BE3E610059F1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		227D670C25BE3E610059F1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		227D670E25BE3E610059F1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RSZL3DL58;
+				INFOPLIST_FILE = "Lab01-AJoke/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.it.Lab01-AJoke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		227D670F25BE3E610059F1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RSZL3DL58;
+				INFOPLIST_FILE = "Lab01-AJoke/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.it.Lab01-AJoke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		227D671125BE3E610059F1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RSZL3DL58;
+				INFOPLIST_FILE = "Lab01-AJokeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.it.Lab01-AJokeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab01-AJoke.app/Lab01-AJoke";
+			};
+			name = Debug;
+		};
+		227D671225BE3E610059F1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RSZL3DL58;
+				INFOPLIST_FILE = "Lab01-AJokeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.it.Lab01-AJokeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab01-AJoke.app/Lab01-AJoke";
+			};
+			name = Release;
+		};
+		227D671425BE3E610059F1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RSZL3DL58;
+				INFOPLIST_FILE = "Lab01-AJokeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.it.Lab01-AJokeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lab01-AJoke";
+			};
+			name = Debug;
+		};
+		227D671525BE3E610059F1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RSZL3DL58;
+				INFOPLIST_FILE = "Lab01-AJokeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.it.Lab01-AJokeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lab01-AJoke";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227D66DE25BE3E5E0059F1EE /* Build configuration list for PBXProject "Lab01-AJoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227D670B25BE3E610059F1EE /* Debug */,
+				227D670C25BE3E610059F1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227D670D25BE3E610059F1EE /* Build configuration list for PBXNativeTarget "Lab01-AJoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227D670E25BE3E610059F1EE /* Debug */,
+				227D670F25BE3E610059F1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227D671025BE3E610059F1EE /* Build configuration list for PBXNativeTarget "Lab01-AJokeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227D671125BE3E610059F1EE /* Debug */,
+				227D671225BE3E610059F1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227D671325BE3E610059F1EE /* Build configuration list for PBXNativeTarget "Lab01-AJokeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227D671425BE3E610059F1EE /* Debug */,
+				227D671525BE3E610059F1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 227D66DB25BE3E5E0059F1EE /* Project object */;
+}
