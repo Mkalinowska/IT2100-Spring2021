@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="o8w-P9-Oze">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Club Info-->
+        <scene sceneID="HCc-vz-b3P">
+            <objects>
+                <viewController id="AEz-E5-zH5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hg3-nY-Zk5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VFk-GY-g0N">
+                                <rect key="frame" x="60" y="240" width="294" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">This is the IT 2100 reading club. Founded in Spring 2021 with the purpose of furthering our knowledge of Controller Views and Tab Bar Views. We hope you enjoy our selection of current and favorite books.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="axe-Ss-etX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Club Info" image="info.circle.fill" catalog="system" id="pQe-9O-cQp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vGJ-dL-7hK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1528.985507246377" y="69.642857142857139"/>
+        </scene>
+        <!--User-->
+        <scene sceneID="nNX-U0-DVi">
+            <objects>
+                <viewController id="1Us-Va-mrp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aEf-I0-lfg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Major: Mobile App Development" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XYt-Ee-VFW">
+                                <rect key="frame" x="85.333333333333329" y="324" width="243.66666666666669" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: Marta Kalinowska" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFX-fP-icf">
+                                <rect key="frame" x="113.33333333333333" y="243" width="187.33333333333337" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XqD-JI-DcG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XYt-Ee-VFW" firstAttribute="top" secondItem="QFX-fP-icf" secondAttribute="bottom" constant="60" id="7Oc-SS-sjH"/>
+                            <constraint firstItem="QFX-fP-icf" firstAttribute="centerX" secondItem="aEf-I0-lfg" secondAttribute="centerX" id="AYq-ac-vSq"/>
+                            <constraint firstItem="XYt-Ee-VFW" firstAttribute="centerX" secondItem="QFX-fP-icf" secondAttribute="centerX" id="GqQ-VN-t9E"/>
+                            <constraint firstItem="QFX-fP-icf" firstAttribute="top" secondItem="XqD-JI-DcG" secondAttribute="top" constant="199" id="ejz-KS-iNg"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="User" image="person.fill" catalog="system" id="Tt3-X7-ahl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OHU-wV-qhH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-617.39130434782612" y="-488.16964285714283"/>
+        </scene>
+        <!--Books-->
+        <scene sceneID="kae-Nv-DCs">
+            <objects>
+                <viewController id="saJ-xx-oAU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CW7-DH-j2a">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Basic Economics - Thomas Sowell" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1aq-jh-eLH">
+                                <rect key="frame" x="77" y="453" width="260" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State and Revolution - Vladmir Lenin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rMA-oL-5DH">
+                                <rect key="frame" x="68.666666666666686" y="321" width="277" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9bh-Tn-a0o">
+                                <rect key="frame" x="105.66666666666669" y="520" width="203" height="21"/>
+                                <string key="text">The Hobbit - J.R.R. Tolkien
+</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anti-Duhring - Frederich Engels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOF-qe-9GY">
+                                <rect key="frame" x="86" y="386" width="242" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8R-OL-3dX">
+                                <rect key="frame" x="136.66666666666666" y="257" width="140.99999999999997" height="21"/>
+                                <string key="text">Capital - Karl Marx
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="M0p-MH-CUu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9bh-Tn-a0o" firstAttribute="centerX" secondItem="T8R-OL-3dX" secondAttribute="centerX" id="6nB-cQ-uIw"/>
+                            <constraint firstItem="rMA-oL-5DH" firstAttribute="top" secondItem="T8R-OL-3dX" secondAttribute="bottom" constant="43" id="9E7-Fi-2g8"/>
+                            <constraint firstItem="9bh-Tn-a0o" firstAttribute="top" secondItem="1aq-jh-eLH" secondAttribute="bottom" constant="46" id="DZL-OF-HbP"/>
+                            <constraint firstItem="EOF-qe-9GY" firstAttribute="centerX" secondItem="T8R-OL-3dX" secondAttribute="centerX" id="OZf-QB-rHd"/>
+                            <constraint firstItem="EOF-qe-9GY" firstAttribute="top" secondItem="rMA-oL-5DH" secondAttribute="bottom" constant="44" id="W4y-dp-bvN"/>
+                            <constraint firstItem="T8R-OL-3dX" firstAttribute="centerX" secondItem="CW7-DH-j2a" secondAttribute="centerX" id="XBX-0d-EQM"/>
+                            <constraint firstItem="T8R-OL-3dX" firstAttribute="top" secondItem="M0p-MH-CUu" secondAttribute="top" constant="213" id="aqs-0O-PJS"/>
+                            <constraint firstItem="1aq-jh-eLH" firstAttribute="centerX" secondItem="T8R-OL-3dX" secondAttribute="centerX" id="d4Y-PE-OoH"/>
+                            <constraint firstItem="1aq-jh-eLH" firstAttribute="top" secondItem="EOF-qe-9GY" secondAttribute="bottom" constant="46" id="hEW-W9-hPm"/>
+                            <constraint firstItem="rMA-oL-5DH" firstAttribute="centerX" secondItem="T8R-OL-3dX" secondAttribute="centerX" id="pWe-lW-7ae"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Books" image="books.vertical.fill" catalog="system" id="kkp-ah-vcd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6rl-Zo-4DN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-617.39130434782612" y="-1096.2053571428571"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="zLI-Mx-79R">
+            <objects>
+                <tabBarController id="o8w-P9-Oze" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ihn-Kz-nuR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="1Us-Va-mrp" kind="relationship" relationship="viewControllers" id="soC-Hx-5CA"/>
+                        <segue destination="saJ-xx-oAU" kind="relationship" relationship="viewControllers" id="inc-CI-H1y"/>
+                        <segue destination="AEz-E5-zH5" kind="relationship" relationship="viewControllers" id="cCo-5A-k4P"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YEz-4c-Mgu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1671" y="-754"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="books.vertical.fill" catalog="system" width="128" height="100"/>
+        <image name="info.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
