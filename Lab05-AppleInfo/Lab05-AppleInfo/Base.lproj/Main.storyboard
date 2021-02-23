@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lab05_AppleInfo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apple Information" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ZJ-Hv-sAf">
+                                <rect key="frame" x="20" y="79" width="360" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="PZP-TW-YDh">
+                                <rect key="frame" x="20" y="108" width="360" height="32"/>
+                                <segments>
+                                    <segment title="Apple"/>
+                                    <segment title="iOS"/>
+                                    <segment title="Xcode"/>
+                                    <segment title="Swift"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeAppleLink:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ykk-NC-mxb"/>
+                                </connections>
+                            </segmentedControl>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6fl-UD-0Fe">
+                                <rect key="frame" x="20" y="147" width="360" height="715"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6ZJ-Hv-sAf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="1tS-fM-3US"/>
+                            <constraint firstItem="PZP-TW-YDh" firstAttribute="top" secondItem="6ZJ-Hv-sAf" secondAttribute="bottom" constant="8" symbolic="YES" id="4f6-f6-Yn6"/>
+                            <constraint firstItem="PZP-TW-YDh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="B4X-l2-QvR"/>
+                            <constraint firstItem="6ZJ-Hv-sAf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="Ebk-ma-hJA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6fl-UD-0Fe" secondAttribute="trailing" constant="34" id="S8p-gF-eBp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6ZJ-Hv-sAf" secondAttribute="trailing" constant="34" id="TDg-pK-XCH"/>
+                            <constraint firstItem="6fl-UD-0Fe" firstAttribute="top" secondItem="PZP-TW-YDh" secondAttribute="bottom" constant="8" symbolic="YES" id="Tfr-UO-iZC"/>
+                            <constraint firstItem="6fl-UD-0Fe" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="dMg-Fa-NGm"/>
+                            <constraint firstItem="6fl-UD-0Fe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="iZ2-25-OgK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PZP-TW-YDh" secondAttribute="trailing" constant="34" id="suN-mS-iP6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="appleLink" destination="PZP-TW-YDh" id="sQ2-Wm-B4j"/>
+                        <outlet property="webApple" destination="6fl-UD-0Fe" id="yVR-CB-SVL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
